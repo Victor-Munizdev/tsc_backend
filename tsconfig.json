@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    /* Configurações principais */
+    "target": "es6",                      // Compatível com ES6
+    "module": "commonjs",                // Usar sistema de módulos CommonJS
+    "rootDir": "./src",                  // Código-fonte estará dentro da pasta src
+    "outDir": "./dist",                  // Código compilado será enviado para dist
+    "strict": true,                      // Ativa verificação estrita de tipos
+    "esModuleInterop": true,             // Permite interoperabilidade entre ESModules e CommonJS
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+
+    /* Outras configurações comentadas, mas disponíveis para futuro uso */
+    // "sourceMap": true,
+    // "noImplicitAny": true,
+    // "strictNullChecks": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    // "noEmitOnError": true
+  }
+}
+  
